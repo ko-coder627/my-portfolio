@@ -47,8 +47,3 @@ function loadTasks() {
 }
 
 loadTasks();
-document.getElementById("taskInput").addEventListener("keypress", function(e) {
-  if (e.key === "Enter") {
-    addTask();
-  }
-});
