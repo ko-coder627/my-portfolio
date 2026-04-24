@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ko's Portfolio</title>
+  <title>Ko's Portfolio</title>
 </head>
 <body>
-  <h1>Ko</h1>
-  <p>Webエンジニアを目指す大学生</p>
-  
-  <h2>目標</h2>
-  <p>古リモートで働けるエンジニアになる</p>
 
-  <h2>スキル</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScripy（これから）</li>
-  </ul>
+  <h1 id="title">Ko</h1>
+
+  <button onclick="changeText()">クリックしてね</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("title").textContent = "やる気MAX🔥";
+    }
+  </script>
+
 </body>
 </html>
