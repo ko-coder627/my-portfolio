@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ko's Portfolio</title>
+  <title>ToDo App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1 id="title">こう</h1>
+  <h1>ToDoアプリ</h1>
 
-  <button onclick="changeText()">クリックしてね</button>
+  <input type="text" id="taskInput" placeholder="やること入力">
+  <button onclick="addTask()">追加</button>
 
-  <script>
-    function changeText() {
-      document.getElementById("title").textContent = "やる気MAX🔥";
-    }
-  </script>
-  <p>ローカル開発成功！🔥</p>
+  <ul id="taskList"></ul>
 
+  <script src="app.js"></script>
 </body>
 </html>
